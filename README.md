@@ -17,14 +17,14 @@ Here are three examples of successful detection outputs:
 
 Lofty and remote:
 
-![](object_detector/results/lofty_and_remote.png)
+![](object_detector/results/lofty_and_remote.jpg)
 
 Wide and remote:
 
-![](object_detector/results/wide_and_remote.png)
+![](object_detector/results/wide_and_remote.jpg)
 
 Deep and remote:
 
-![](object_detector/results/deep_and_remote.png)
+![](object_detector/results/deep_and_remote.jpg)
 
 
