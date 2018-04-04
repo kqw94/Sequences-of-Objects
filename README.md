@@ -14,7 +14,9 @@ python object_detection.py [painting_path]
 ```
 
 Here are three examples of successful detection outputs:
+
 Lofty and remote:
+
 ![](object_detector/results/lofty_and_remote.png)
 
 
