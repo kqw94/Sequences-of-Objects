@@ -13,11 +13,18 @@ To run:
 python object_detection.py [painting_path]
 ```
 
-
 Here are three examples of successful detection outputs:
 
 Lofty and remote:
 
 ![](object_detector/results/lofty_and_remote.png)
+
+Wide and remote:
+
+![](object_detector/results/wide_and_remote.png)
+
+Deep and remote:
+
+![](object_detector/results/deep_and_remote.png)
 
 
