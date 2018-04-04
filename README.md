@@ -7,3 +7,9 @@ This repository contains a TensorFlow implementation of SO. The repository is se
 ## Object detector minimal example
 
 The [object_detection.py](object_detector/notebooks/object_detection.py) contains a minimal example of object detection pipeline.
+
+To run:
+```bash
+python object_detection.py [painting_path]
+```
+
