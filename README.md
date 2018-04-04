@@ -27,4 +27,5 @@ Deep and remote:
 
 ![](object_detector/results/deep_and_remote.jpg)
 
+## Sequence classifier minimal example
 
