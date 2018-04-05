@@ -18,7 +18,7 @@ If you are using pip you can install these with
 pip install tensorflow numpy six opencv-python matplotlib pillow
 ```
 
-## Object detector minimal example
+## Minimal example of object detector
 
 The [object_detection.py](object_detector/notebooks/object_detection.py) contains a minimal example of object detection pipeline.
 
@@ -53,5 +53,5 @@ python object_detection.py '../demo/deep_and_remote.jpg'
 
 ![](object_detector/results/deep_and_remote.jpg)
 
-## Sequences of Objects minimal example
+## Minimal example of Sequences of Objects
 
