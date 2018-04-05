@@ -2,7 +2,7 @@
 
 # usage
 # chmod +x ./sequences_of_objects
-# ./sequences_of_objects
+# ./sequences_of_objects [painting_path]
 
 cd object_detector/checkpoints
 unzip checkpoints.zip
