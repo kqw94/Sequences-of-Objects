@@ -44,7 +44,7 @@ with slim.arg_scope(ssd_net.arg_scope(data_format=data_format)):
     predictions, localisations, _, _ = ssd_net.net(image_4d, is_training=False, reuse=reuse)
 
 # Restore SSD model.
-ckpt_filename = '../checkpoints/checkpoints/model.ckpt-91516'
+ckpt_filename = '../checkpoints/model.ckpt-91516'
 # print(ckpt_filename)
 isess.run(tf.global_variables_initializer())
 saver = tf.train.Saver()
