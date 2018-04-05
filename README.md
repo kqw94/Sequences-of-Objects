@@ -10,6 +10,7 @@ The [object_detection.py](object_detector/notebooks/object_detection.py) contain
 
 To run:
 ```bash
+cd object_detector/notebooks
 python object_detection.py [painting_path]
 ```
 
