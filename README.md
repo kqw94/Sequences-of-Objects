@@ -5,18 +5,15 @@ Sequences of Objects (SO) is a novel and effective method for ancient Chinese 'S
 This repository contains a TensorFlow implementation of SO. The repository is separated in two main parts: (1) object detector; (2) sequence classifier. Here we apply [SSD](http://arxiv.org/abs/1512.02325) as our object detector, and LSTM as our sequence classifier.
 
 ## Requirements:
-* Tensorflow (>= 1.0)
+* Tensorflow (>= 1.4)
 * numpy
-* scipy
-* h5py
-* wget
-* Pillow
 * six
-* scikit-image
+* opencv-python
+* matplotlib
 
 If you are using pip you can install these with
 
-```pip install tensorflow numpy scipy h5py wget Pillow six scikit-image```
+```pip install tensorflow numpy six opencv-python matplotlib```
 
 ## Object detector minimal example
 
