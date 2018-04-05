@@ -66,3 +66,5 @@ python object_detection_save_results.py [painting_path] # object detection
 cd sequence_classifier # at root of the repository
 python composition_classification.py [painting_path] # composition classification
 ```
+
+or you can directly use shell script [sequences_of_objects](sequences_of_objects):
