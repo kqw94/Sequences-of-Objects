@@ -61,7 +61,7 @@ keep_prob = 0.8  # useful when dropout = True
     input the sequence of objects of demo painting & format it
 """
 # input sequence of objects
-sequence_path = sys.argv[1]
+sequence_path = './demo/' + str(sys.argv[1]).split('/')[-1][:-4] + '.csv'
 object_sequence = input_object_sequence(sequence_path)
 
 # format
