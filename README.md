@@ -58,4 +58,11 @@ python object_detection.py '../demo/deep_and_remote.jpg'
 The [object_detection_save_results.py](object_detector/notebooks/object_detection_save_results.py) and [composition_classification.py](sequence_classifier/composition_classification.py) contain a minimal example of our SO pipeline.
 
 To run:
-
+```bash
+cd object_detector/checkpoints # at root of the repository
+unzip checkpoints.zip
+cd object_detector/notebooks # at root of the repository
+python object_detection_save_results.py [painting_path] # object detection
+cd sequence_classifier # at root of the repository
+python composition_classification.py [painting_path] # composition classification
+```
