@@ -53,5 +53,5 @@ python object_detection.py '../demo/deep_and_remote.jpg'
 
 ![](object_detector/results/deep_and_remote.jpg)
 
-## Sequence classifier minimal example
+## Sequences of Objects minimal example
 
