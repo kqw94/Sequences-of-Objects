@@ -98,7 +98,7 @@ for i in range(rclasses.shape[0]):
 
         print('object {0}'.format(i))
         print('class', rclasses[i])
-        print('coordination', xmin,ymin,xmax-xmin,ymax-ymin)
+        print('coordination', xmin,ymin,xmax,ymax)
         print('confidence', score)
         print('\n')
 
