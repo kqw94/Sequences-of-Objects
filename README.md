@@ -67,4 +67,17 @@ cd sequence_classifier # at root of the repository
 python composition_classification.py [painting_path] # composition classification
 ```
 
-or you can directly use shell script [sequences_of_objects](sequences_of_objects):
+or you can directly use the shell script [sequences_of_objects](sequences_of_objects):
+```bash
+chmod +x ./sequences_of_objects
+./sequences_of_objects [painting_path]
+```
+
+For example:
+```bash
+chmod +x ./sequences_of_objects
+./sequences_of_objects '../demo/lofty_and_remote.jpg'
+```
+
+first you can see the object detection results, then the composition classification results.
+
