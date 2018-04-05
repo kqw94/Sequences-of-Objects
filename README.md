@@ -20,21 +20,21 @@ Here are three examples of successful detection outputs:
 
 Lofty and remote:
 ```bash
-python object_detection.py '../demo/lofty_and_remote'
+python object_detection.py '../demo/lofty_and_remote.jpg'
 ```
 
 ![](object_detector/results/lofty_and_remote.jpg)
 
 Wide and remote:
 ```bash
-python object_detection.py '../demo/wide_and_remote'
+python object_detection.py '../demo/wide_and_remote.jpg'
 ```
 
 ![](object_detector/results/wide_and_remote.jpg)
 
 Deep and remote:
 ```bash
-python object_detection.py '../demo/deep_and_remote'
+python object_detection.py '../demo/deep_and_remote.jpg'
 ```
 
 ![](object_detector/results/deep_and_remote.jpg)
