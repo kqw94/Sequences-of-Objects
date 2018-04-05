@@ -55,3 +55,7 @@ python object_detection.py '../demo/deep_and_remote.jpg'
 
 ## Minimal example of Sequences of Objects
 
+The [object_detection_save_results.py](object_detector/notebooks/object_detection_save_results.py) and [composition_classification.py](sequence_classifier/composition_classification.py) contain a minimal example of our SO pipeline.
+
+To run:
+
