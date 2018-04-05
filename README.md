@@ -13,7 +13,9 @@ This repository contains a TensorFlow implementation of SO. The repository is se
 
 If you are using pip you can install these with
 
-```pip install tensorflow numpy six opencv-python matplotlib```
+```bash
+pip install tensorflow numpy six opencv-python matplotlib
+```
 
 ## Object detector minimal example
 
