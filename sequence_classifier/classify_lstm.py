@@ -122,7 +122,7 @@ batch_size_train = 256
 batch_size_test = 52
 
 dropout = True
-keep_prob = 0.8  # useful when dropout = Ture
+keep_prob = 0.8  # useful when dropout = True
 
 """
     input training & inference data
