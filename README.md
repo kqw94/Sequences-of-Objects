@@ -10,9 +10,9 @@ The [object_detection.py](object_detector/notebooks/object_detection.py) contain
 
 To run:
 ```bash
-cd object_detector/checkpoints
+cd object_detector/checkpoints // at root of the repository
 unzip checkpoints.zip
-cd object_detector/notebooks
+cd object_detector/notebooks // at root of the repository
 python object_detection.py [painting_path]
 ```
 
