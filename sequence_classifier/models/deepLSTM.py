@@ -127,8 +127,9 @@ class DeepLSTM:
                         input_batch, output_batch = self.get_batch(test_input, test_output, batch_size_test,
                                                                    mode='test')
 
-                        accuracy += sess.run(self.accuracy, feed_dict={self.x: input_batch, self.y: output_batch})
                         count += 1
+                        predictions = sess.run(self.softmax, feed_dict={self.x: input_batch, self.keep_prob: 1.0})
+                        accuracy += self.average_test(predictions, output_batch)
 
                     print('test accuracy =', accuracy/count)
                     print('\n')
@@ -164,12 +165,26 @@ class DeepLSTM:
                         input_batch, output_batch = self.get_batch(test_input, test_output, batch_size_test,
                                                                    mode='test')
 
-                        accuracy += sess.run(self.accuracy, feed_dict={self.x: input_batch, self.y: output_batch, self.keep_prob: 1.0})
                         count += 1
+                        predictions = sess.run(self.softmax, feed_dict={self.x: input_batch, self.keep_prob: 1.0})
+                        accuracy += self.average_test(predictions, output_batch)
 
                     print('test accuracy =', accuracy / count)
                     print('\n')
 
+    def average_test(self, predictions, ground_truth):
+
+        accuracy = 0.
+
+        # predictions: [None, class_number], confidence
+        # ground_truth: [None, class_number], one-hot
+        for i in np.arange(0, len(predictions), 2):
+
+            average_predictions = (predictions[i] + predictions[i+1]) / 2.0
+            if np.argmax(average_predictions) == np.argmax(ground_truth[i]):
+                accuracy += 1.0
+
+        return accuracy / (len(predictions) / 2.0)
 
 
 
